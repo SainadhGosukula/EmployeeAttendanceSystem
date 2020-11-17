@@ -1,0 +1,80 @@
+
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          background-color: #f1f1f1;
+           font-family: Raleway;
+           margin: 100px auto;
+           font-family: Raleway;
+           padding: 10px;
+           width: 70%;
+           min-width: 300px;
+
+        }
+        a:link, a:visited {
+            background-color:#0B5345;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+          }
+          
+          a:hover, a:active {
+            background-color:black;
+          }
+        
+        #regForm1 {
+          background-color: #ffffff;
+          margin: 100px auto;
+          font-family: Raleway;
+          padding: 40px;
+          width: 50%;
+          min-width: 300px;
+          opacity: 0.8;
+        }
+        
+        h1 {
+          text-align: center;  
+        }
+        
+        input,select,option {
+          padding: 2px;
+          width: 25%;
+          font-size: 17px;
+          font-family: Raleway;
+          border: 1px solid #aaaaaa;
+        }
+        input[type=submit]{
+            background-color:#212F3C;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        input[type=ratio]{
+          border:none;
+          padding: 1px 1px;
+          margin: 0%;
+        }
+        
+      
+        
+        button {
+          background-color: #4CAF50;
+          color: #ffffff;
+          border: none;
+          padding: 10px 20px;
+          font-size: 17px;
+          font-family: Raleway;
+          cursor: pointer;
+        }
+        
+        button:hover {
+          opacity: 0.8;
+        }
+      

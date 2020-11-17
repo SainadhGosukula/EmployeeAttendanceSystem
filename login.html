@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          background:#aaaaaa;;
+
+        }
+        
+        #regForm1 {
+          background-color: #ffffff;
+          margin: 100px auto;
+          font-family: Raleway;
+          padding: 40px;
+          width: 70%;
+          min-width: 300px;
+          opacity: 0.8;
+        }
+        
+        h1 {
+          text-align: center;  
+        }
+        
+        input {
+          padding: 10px;
+          width: 100%;
+          font-size: 17px;
+          font-family: Raleway;
+          border: 1px solid #aaaaaa;
+        }
+        
+     
+        
+      
+        
+        button {
+          background-color: #4CAF50;
+          color: #ffffff;
+          border: none;
+          padding: 10px 20px;
+          font-size: 17px;
+          font-family: Raleway;
+          cursor: pointer;
+        }
+        
+        button:hover {
+          opacity: 0.8;
+        }
+      
+        
+      </style>
+<body>
+<form  id="regForm1"method="post" action="index.php">
+  <h1>EMPLOYEE ATTENDANCE SYSTEM</h1>
+    <fieldset><LEgend>LOGIN PAGE</LEgend>
+User-Name:
+<P><input type="text" name="email" placeholder="email is username" required></P>
+Password:
+<P><input type="password" name="passwordlg" id="password">
+<input type="checkbox" onclick="myFunction()">Show Password</P>
+
+<input type="submit" name="submit" value="Sign In">
+</form>
+<form action="registration.php" method="post">
+    If your New User then Signup:
+        <input type="submit" value="Sign Up" name="subreg">
+</form>
+</fieldset>
+
+
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("password");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+    </script>
+</body>
+</html>
